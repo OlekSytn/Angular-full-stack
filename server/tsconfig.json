@@ -1,0 +1,9 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../dist/server",
+    "baseUrl": "",
+    "module": "commonjs",
+    "skipLibCheck": true // Added due to mocha and jasmine errors
+  }
+}
